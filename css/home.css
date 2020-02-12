@@ -1,0 +1,160 @@
+body{
+       font :15px/1.5 Arial, helvetica, sans-serif;
+padding:0;
+margin: 0;
+background:url('../img/images.jpg');
+
+    }
+/* Global*/
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+}    
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+.button_1{
+    height: 40px;
+    background: #e8491d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+    
+
+
+}
+/* header*/
+
+header{
+    background: #35424a;
+   color: #ffffff;
+   padding: top 30px; 
+   min-height: 70px;
+   border-bottom: #c8491d;
+   
+   
+}
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+
+
+
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+    margin-top: -20px;
+    font-style: inherit;
+
+}
+header #branding{
+    float: left;
+
+
+}
+header #branding h1{
+margin: 0;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+header .highlight, header .current a{
+    columns: #e8491d;
+    font-weight: bold; 
+    color: #c8491d;
+}
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+
+}
+/*show case*/
+#showcase{
+    border-color: tomato;
+    width: 900px;
+    height: 400px;
+    background:url('../img/photo.jpg');
+    image-orientation: inherit;
+    text-align: center;
+    color:black;
+    
+}
+#showcase h1{
+    margin-top: 60px;
+    font-size: 30px;
+    margin-bottom: 10px;
+
+
+}
+#showcase p{
+    font-size: 20px;
+    margin-top: red;
+
+}
+#newsletter{
+    padding: 15px;
+    color: #ffffff;
+    background:#35424a ;
+
+}
+#newsletter h1{
+    float: left;
+font-size: 14px;
+}
+
+#newsletter form{
+    float: right;
+    margin-top: 15px;
+    width: inherit;
+    height: 390px;
+    border: aqua;
+    
+}
+#newsletter input[type="email"],[type="text"],[type="tel"]{
+    width: 300px;
+    margin-bottom: 40px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 20px;
+    color: white;
+    font-size: 15px;
+    left: 20px;
+  
+
+    
+}
+/* boxes*/
+#boxes{
+    margin-top: 20px;
+}
+
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    color: #ffffff;
+
+}
+#boxes .box img{
+    width: 100px;
+}
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #c8491d;
+    text-align: center;
+}
