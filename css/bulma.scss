@@ -1,0 +1,8 @@
+$background:skyblue;
+
+body{
+    background-color: $background;
+}
+ul li a{
+font-weight: to-upper-case($string: "");
+}
